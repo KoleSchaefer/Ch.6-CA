@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Calculator</title>
+    <title>Scientific Calculator</title>
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
 </head>
@@ -40,6 +40,12 @@
                     <div class="row">
                         <button class="btn btn-light col" onclick="appendToDisplay('0')">0</button>
                         <button class="btn btn-light col" onclick="appendToDisplay('.')">.</button>
+                    </div>
+                    <div class="row">
+                        <button class="btn btn-light col" onclick="calculateSin()">sin</button>
+                        <button class="btn btn-light col" onclick="calculateCos()">cos</button>
+                        <button class="btn btn-light col" onclick="calculateTan()">tan</button>
+                        <button class="btn btn-light col" onclick="calculateSqrt()">√</button>
                     </div>
                 </div>
             </div>

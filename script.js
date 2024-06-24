@@ -28,3 +28,39 @@ function calculate() {
         display.innerText = 'Error';
     }
 }
+
+function calculateSin() {
+    const display = document.getElementById('display');
+    try {
+        display.innerText = Math.sin(eval(display.innerText));
+    } catch {
+        display.innerText = 'Error';
+    }
+}
+
+function calculateCos() {
+    const display = document.getElementById('display');
+    try {
+        display.innerText = Math.cos(eval(display.innerText));
+    } catch {
+        display.innerText = 'Error';
+    }
+}
+
+function calculateTan() {
+    const display = document.getElementById('display');
+    try {
+        display.innerText = Math.tan(eval(display.innerText));
+    } catch {
+        display.innerText = 'Error';
+    }
+}
+
+function calculateSqrt() {
+    const display = document.getElementById('display');
+    try {
+        display.innerText = Math.sqrt(eval(display.innerText));
+    } catch {
+        display.innerText = 'Error';
+    }
+}
