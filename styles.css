@@ -1,5 +1,8 @@
 body {
     background-color: #f8f9fa;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
 }
 
 .calculator {
@@ -21,4 +24,14 @@ body {
 .buttons .btn {
     margin: 5px 0;
     font-size: 1.5em;
+}
+
+.footer {
+    background-color: #343a40;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
 }
